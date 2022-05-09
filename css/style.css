@@ -4,6 +4,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    color: rebeccapurple;
+header {
+    box-sizing: border-box;
+    background-color: #4D41C0;
+    color: #ffffff;
+
+}
+
+html, body {
+    background-color: #E8E8E8;
+    ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
 }
