@@ -6,6 +6,7 @@
     --color-primary: #4D41C0;
     --white: #ffffff;
     --text-lightgray: #aaaaaa;
+    --star-yellow: #ffbb3a;
 }
 
 * {
@@ -82,8 +83,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
-    
+    height: 200px;
 }
 
 .dsmovie-card-description h3 {
@@ -91,6 +91,29 @@ a, a:hover {
     font-weight: 700;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.dsmovide-card-description-botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovide-card-description-botton h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dsmovide-card-description-botton img {
+    width: 22px;
+}
+
+.dsmovide-card-description-botton p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-lightgray);
+    margin-bottom: 10px;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
